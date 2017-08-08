@@ -104,6 +104,11 @@ module.exports = {
             return promise;  
         }
             
+    },
+    image:function(req, res, next){
+        //res.attachment('assets/images/uploads/5_37_200_14_111_MAX.jpg');
+        //res.send(200, {image:'asdfasdf'})
+        res.status(200).sendfile('assets/images/uploads/5_37_200_14_111_MAX.jpg');
     }
 	
 };

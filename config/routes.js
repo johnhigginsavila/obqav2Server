@@ -136,6 +136,10 @@ module.exports.routes = {
     controller:'EvidenceController',
     action:'upload'
   },
+  '/evidence/image':{
+    controller:'EvidenceController',
+    action:'image'
+  },
   '/evidence/findOne':{
     controller:'EvidenceController',
     action:'findOne'
